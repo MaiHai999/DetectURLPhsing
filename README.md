@@ -1,6 +1,7 @@
 # URL Phishing Detection
 
-This project implements a URL phishing detection system using Convolutional Neural Networks (CNN) to classify URLs as safe or potentially harmful. The backend is built with Python Flask, providing an API to receive URLs and return their safety status.
+This project implements a URL phishing detection system using Region-based Convolutional Neural Networks (RCNN) to classify URLs as safe or potentially harmful. The backend is built with Python Flask, providing an API to receive URLs and return their safety status.
+
 
 ## Features
 
