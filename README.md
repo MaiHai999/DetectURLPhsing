@@ -6,7 +6,7 @@ This project implements a URL phishing detection system using a combination of C
 
 ## Features
 
-- **URL Classification**: Uses RCNN to analyze and classify URLs as safe or phishing.
+- **URL Classification**: Uses CNN-LSTM to analyze and classify URLs as safe or phishing.
 - **RESTful API**: Built with Flask to handle incoming URL requests and respond with safety assessments.
 - **Real-time Detection**: Quickly evaluates URLs and provides immediate feedback on safety.
 - **User-friendly Interface**: Easy to use with simple API endpoints.
