@@ -1,6 +1,7 @@
 # URL Phishing Detection
 
-This project implements a URL phishing detection system using Region-based Convolutional Neural Networks (RCNN) to classify URLs as safe or potentially harmful. The backend is built with Python Flask, providing an API to receive URLs and return their safety status.
+This project implements a URL phishing detection system using a combination of Convolutional Neural Networks (CNN) and Long Short-Term Memory networks (LSTM) to classify URLs as safe or potentially harmful. The backend is built with Python Flask, providing an API to receive URLs and return their safety status.
+
 
 
 ## Features
@@ -14,7 +15,7 @@ This project implements a URL phishing detection system using Region-based Convo
 
 - **Python**: The core programming language for implementation.
 - **Flask**: Lightweight web framework for creating the API.
-- **TensorFlow/Keras**: Libraries used for building and training the RCNN model.
+- **TensorFlow/Keras**: Libraries used for building and training the CNN-LSTM model.
 - **NumPy**: For numerical computations and data manipulation.
 - **Pandas**: For handling datasets during training and evaluation.
 - **scikit-learn**: For additional data preprocessing and evaluation metrics.
