@@ -22,7 +22,7 @@ This project implements a URL phishing detection system using a combination of C
 
 ## How It Works
 
-1. **Data Collection**: Gather datasets of safe and phishing URLs for training the RCNN model.
+1. **Data Collection**: Gather datasets of safe and phishing URLs for training the CNN-LSTM model.
 2. **Model Training**: Use the collected datasets to train a Convolutional Neural Network to distinguish between safe and malicious URLs.
 3. **API Setup**: Set up a Flask application to expose an API endpoint for URL analysis.
 4. **URL Evaluation**: When a URL is sent to the API, the model processes it and returns whether it is safe or potentially harmful.
